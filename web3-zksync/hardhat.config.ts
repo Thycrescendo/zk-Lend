@@ -1,6 +1,9 @@
 import { HardhatUserConfig } from "hardhat/config";
 
 import "@matterlabs/hardhat-zksync";
+import * as dotenv from "dotenv";
+
+dotenv.config();
 
 const config: HardhatUserConfig = {
   defaultNetwork: "zkSyncSepoliaTestnet",
